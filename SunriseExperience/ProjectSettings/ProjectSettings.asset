@@ -161,7 +161,7 @@ PlayerSettings:
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
     Android: com.LCV.LiminalTest
-    Standalone: com.Company.ProductName
+    Standalone: com.oculus.UnitySample
   buildNumber: {}
   AndroidBundleVersionCode: 1
   AndroidMinSdkVersion: 24
@@ -285,6 +285,11 @@ PlayerSettings:
     - OpenVR
     - Oculus
     - daydream
+  - m_BuildTarget: Standalone
+    m_Enabled: 1
+    m_Devices:
+    - OpenVR
+    - Oculus
   m_BuildTargetEnableVuforiaSettings: []
   openGLRequireES31: 0
   openGLRequireES31AEP: 0
