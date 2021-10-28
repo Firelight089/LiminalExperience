@@ -375,7 +375,7 @@ GameObject:
   - component: {fileID: 1190299906}
   - component: {fileID: 1190299907}
   m_Layer: 0
-  m_Name: LevelManager
+  m_Name: LightManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -413,9 +413,9 @@ MonoBehaviour:
   timetext: {fileID: 596758953}
   days: 0
   intensity: 0
-  fogday: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-  fognight: {r: 0, g: 0, b: 0, a: 1}
-  speed: 3000
+  fogday: {r: 1, g: 1, b: 1, a: 1}
+  fognight: {r: 0.3018868, g: 0.3018868, b: 0.3018868, a: 1}
+  speed: 1
 --- !u!1 &1499884962
 GameObject:
   m_ObjectHideFlags: 0

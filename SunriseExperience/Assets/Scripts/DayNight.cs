@@ -15,10 +15,10 @@ public class DayNight : MonoBehaviour
     public int days;
 
     public float intensity;
-    public Color fogday = Color.grey;
-    public Color fognight = Color.black;
+    public Color fogday = Color.white;
+    public Color fognight = Color.grey;
 
-    public int speed;
+    public float speed;
 
 
     // Start is called before the first frame update
@@ -32,7 +32,7 @@ public class DayNight : MonoBehaviour
     public void ChangeTime()
     {
         time += Time.deltaTime * speed;
-        if(time > 86400)
+        if(time > 3600 )
         {
             days += 1;
             time = 0;
@@ -41,11 +41,11 @@ public class DayNight : MonoBehaviour
         string[] temptime = currenttime.ToString ().Split (":"[0]);
         timetext.text = temptime [0] + ":" + temptime [1];
 
-        SunTransform.rotation = Quaternion.Euler(new Vector3((time - 21600) / 86400 * 360, 0, 0));
-        if(time < 43200 )
-          intensity = 1 - (43200 -time) / 43200;
+        SunTransform.rotation = Quaternion.Euler(new Vector3((time - 900) / 360 * 180, 0, 0));
+        if(time < 1800 )
+          intensity = 1 - (1800 -time) / 1800;
         else
-            intensity = 1 - (43200 - time) / 43200 * -1;
+            intensity = 1 - (1800 - time) / 1800 * -1;
         
         RenderSettings.fogColor = Color.Lerp(fognight, fogday, intensity * intensity);
 
