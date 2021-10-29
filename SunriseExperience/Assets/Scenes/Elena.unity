@@ -415,7 +415,7 @@ MonoBehaviour:
   intensity: 0
   fogday: {r: 1, g: 1, b: 1, a: 1}
   fognight: {r: 0.3018868, g: 0.3018868, b: 0.3018868, a: 1}
-  speed: 1
+  speed: 3
 --- !u!1 &1499884962
 GameObject:
   m_ObjectHideFlags: 0
