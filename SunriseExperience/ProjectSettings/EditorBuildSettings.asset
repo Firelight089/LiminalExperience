@@ -8,4 +8,7 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/Elena.unity
+    guid: 603dd6734dd924049b3cf1e748e68d7a
   m_configObjects: {}
