@@ -5,13 +5,7 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: Assets/Scenes/Chucho.unity
-    guid: f6fe3424f4b4d7845a0804d1167267c4
   - enabled: 1
-    path: Assets/Scenes/Adam/PostProcTest.unity
-    guid: 1bec29e16e42cf543830f04c87c70b6c
+    path: Assets/Scenes2/Chucho.unity
+    guid: 4c72547138460c2418ffc09025d20015
   m_configObjects: {}
