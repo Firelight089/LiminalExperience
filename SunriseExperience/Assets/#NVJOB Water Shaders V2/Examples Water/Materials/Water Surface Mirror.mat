@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Water Surface Mirror
-  m_Shader: {fileID: 4800000, guid: cab0bc95e1ce4946a1298a052a7d1d6f, type: 3}
+  m_Shader: {fileID: 4800000, guid: 6c8bb459c50e0ab49915b77d90336cba, type: 3}
   m_ShaderKeywords: EFFECT_ALBEDO2 EFFECT_FOAM EFFECT_MICROWAVE EFFECT_MIRROR EFFECT_NORMALMAP2
     EFFECT_PARALLAX
   m_LightmapFlags: 4
@@ -117,7 +117,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ParallaxMap:
-        m_Texture: {fileID: 2800000, guid: 229e000900d549ddbdfbf1b657ec7097, type: 3}
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ReflectionCube:
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _RefractionNormals:
@@ -212,6 +216,9 @@ Material:
     - _ParallaxScale: 0.51
     - _Radius: 1
     - _Reflect: 1
+    - _ReflectionContrast: 1
+    - _ReflectionSaturation: 1
+    - _ReflectionStrength: 0.15
     - _RefractionIntensity: 0.61
     - _RefractionSpeed: 1.61
     - _ReverseFlow: 2.3
@@ -243,5 +250,6 @@ Material:
     - _MirrorColor: {r: 0.78300005, g: 0.75166595, b: 0.71722806, a: 0.5}
     - _MirrorDepthColor: {r: 0.103773594, g: 0.09445918, b: 0.085662164, a: 0.5}
     - _ReflectColor: {r: 0.07605405, g: 0.084, b: 0.082864866, a: 1}
+    - _ReflectionColor: {r: 0.28, g: 0.29, b: 0.25, a: 0.5}
     - _SpecColor: {r: 0.4, g: 0.4, b: 0.3764706, a: 1}
     - _SpecularColor: {r: 0.5808823, g: 0.5808823, b: 0.5808823, a: 1}
