@@ -13,7 +13,7 @@ Material:
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 3000
+  m_CustomRenderQueue: 5000
   stringTagMap: {}
   disabledShaderPasses: []
   m_SavedProperties:
@@ -57,7 +57,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _BumpScale: 1
-    - _CoreCutoff: 0
+    - _CoreCutoff: 0.221
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
@@ -71,15 +71,15 @@ Material:
     - _Offset: 2.97
     - _Parallax: 0.02
     - _PulseRate: 0
-    - _PulseStrength: 0.81
+    - _PulseStrength: 0.05
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
-    - _Strength: 5.71
+    - _Strength: 2
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 0.9528302, g: 0.9317703, b: 0.7685564, a: 1}
-    - _ColorCore: {r: 0.122641504, g: 0.10250657, b: 0.019090425, a: 1}
+    - _Color: {r: 0.2924528, g: 0.2717604, b: 0.2717604, a: 1}
+    - _ColorCore: {r: 0.084905684, g: 0.081901945, b: 0.06928624, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _TintColor: {r: 0.363875, g: 0.64186203, b: 0.697, a: 1}
