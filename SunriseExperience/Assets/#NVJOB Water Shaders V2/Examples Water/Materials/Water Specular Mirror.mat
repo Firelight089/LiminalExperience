@@ -188,6 +188,7 @@ Material:
     - _IntensityMicrowave: 0.2
     - _IntensityMt: 2.4
     - _IntensityNm: 0.85
+    - _IntensityNmDetail: 1
     - _IntensityRef: 1.7
     - _InvFade: 0
     - _MainDetailFlow: 0
