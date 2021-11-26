@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Elena 1.unity
     guid: 7f1501f80f7301a4d9cd5166ac1fa4c1
+  - enabled: 0
+    path: Assets/Scenes/Elena 2.unity
+    guid: 4123e8c1ee818d24986c4ee849c49c05
   m_configObjects: {}
