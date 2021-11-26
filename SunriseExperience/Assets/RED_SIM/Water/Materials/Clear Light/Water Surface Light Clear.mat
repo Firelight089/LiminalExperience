@@ -191,7 +191,7 @@ Material:
     - __dirty: 0
     m_Colors:
     - _AlbedoColor: {r: 0.15, g: 0.161, b: 0.16, a: 1}
-    - _Color: {r: 0.12001601, g: 0.19594626, b: 0.8207547, a: 0}
+    - _Color: {r: 0, g: 0.36461127, b: 0.9433962, a: 0}
     - _Color0: {r: 0, g: 0.6749488, b: 0.8088235, a: 0}
     - _Color1: {r: 0, g: 0.048731543, b: 0.22794023, a: 0}
     - _ColorClose: {r: 0, g: 0.7882055, b: 0.9433962, a: 0}
@@ -206,7 +206,7 @@ Material:
     - _ReflectionColor: {r: 0.28, g: 0.29, b: 0.25, a: 0.5}
     - _ShalowColor: {r: 0, g: 0.80882317, b: 0.8088235, a: 0}
     - _SpecColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Tint: {r: 0, g: 0.04098823, b: 0.5566038, a: 0}
+    - _Tint: {r: 0, g: 0.18979652, b: 0.75686276, a: 0}
     - _UnderwaterColorClose: {r: 0, g: 0.553117, b: 0.66176474, a: 0}
     - _UnderwaterColorFar: {r: 0, g: 0.26133937, b: 0.36764705, a: 0}
     - _WaterColorClose: {r: 0, g: 0.2196079, b: 0.2627451, a: 0}
