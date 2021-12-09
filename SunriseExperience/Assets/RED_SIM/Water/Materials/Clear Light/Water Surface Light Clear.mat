@@ -8,9 +8,9 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Water Surface Light Clear
-  m_Shader: {fileID: 4800000, guid: 6f809807f6a2e96479604e0c544c7408, type: 3}
-  m_ShaderKeywords: _EDGEMASKSHIFT_ON _FIXUNDERWATEREDGES_ON _USEDEPTHSMOOTHING_ON
-    _ZWRITE1_ON
+  m_Shader: {fileID: 4800000, guid: 24bbf6e2df74cc447a46a46e704645c8, type: 3}
+  m_ShaderKeywords: _EDGEMASKSHIFT_ON _FIXUNDERWATEREDGES_ON _GLOSSYREFLECTIONS_OFF
+    _USEDEPTHSMOOTHING_ON _ZWRITE1_ON _ZWRITE_ON
   m_LightmapFlags: 0
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -20,9 +20,21 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _CausticsRefractionNormal:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _Foam:
         m_Texture: {fileID: 2800000, guid: d01457b88b1c5174ea4235d140b5fab8, type: 3}
         m_Scale: {x: 20, y: 20}
+        m_Offset: {x: 0, y: 0}
+    - _FoamTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FoamTexture2nd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Height:
         m_Texture: {fileID: 2800000, guid: a3ea473c8006e85418f373757e5d1c7d, type: 3}
@@ -34,7 +46,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _Normal:
         m_Texture: {fileID: 2800000, guid: 6d095a40a0b25e746a709fedd6a9aae6, type: 3}
-        m_Scale: {x: 5, y: 5}
+        m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Normal2:
         m_Texture: {fileID: 2800000, guid: fd8b85b15dfe0ad4cbbc5613a12722c6, type: 3}
@@ -42,7 +54,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _Normal2nd:
         m_Texture: {fileID: 2800000, guid: 8d1c512a0b7c09542b55aa818b398907, type: 3}
-        m_Scale: {x: 1, y: 1}
+        m_Scale: {x: 0.1, y: 0.1}
         m_Offset: {x: 0, y: 0}
     - _TextureSample0:
         m_Texture: {fileID: 2800000, guid: fd8b85b15dfe0ad4cbbc5613a12722c6, type: 3}
@@ -63,6 +75,16 @@ Material:
     m_Floats:
     - _1stto2ndBlend: 1
     - _AmbientOcclusionPower: 0
+    - _CausticsBrightnessGradation: 0
+    - _CausticsDarknessLimit: 0
+    - _CausticsDispersion: 0.25
+    - _CausticsPower: 0
+    - _CausticsRefractionPower: 0.5
+    - _CausticsRefractionSize: 1
+    - _CausticsSize: 20
+    - _CausticsSpeed: 1
+    - _ColorContrast: 1
+    - _ColorSaturation: 1
     - _Depth: 1
     - _Depth1: 0.5
     - _DepthColorChange: 1
@@ -81,24 +103,37 @@ Material:
     - _Float3: 0.9
     - _Foam: 1.79
     - _FoamDepth: 0.94
+    - _FoamDistortionPower: 1
     - _FoamFalloff: -60
+    - _FoamGradation: 6
+    - _FoamGradation2nd: 15
+    - _FoamMaskDistortionPower: 1
+    - _FoamMaskSize: 0.05
     - _FoamPower: 4
+    - _FoamSize2nd: 0.15
     - _FoamSmoothness: 0.2
     - _FoamSpecular: 0
     - _Foamfalloff: -4
-    - _GlossyReflections: 1
+    - _GlossyReflections: 0
     - _GradientRadiusClose: 0.3
     - _GradientRadiusFar: 1.2
+    - _IntersectionSmoothing: 0.02
+    - _IntrsectionSmoothing: 0.02
     - _MaskClipValue: 0.5
+    - _MatchCausticsDirectionWithLightSource: 0
     - _NormalPower: 0.139
     - _NormalPower2nd: 0.616
     - _NormalScale: 0.3
     - _OpacityViewDistanceClose: 1
     - _OpacityViewDistanceFar: 1
     - _Refraction: 0.169
+    - _Refraction2nd: 0.01
+    - _RefractionDistanceFade: 0.6
     - _RefractionDistortion: 0.019
     - _RipplesSpeed: 1
     - _RipplesSpeed2nd: 0.1
+    - _RoatationAnimationRadius: 0.2
+    - _RotationAnimationSpeed: 1
     - _Smoothness: 0.8
     - _Specular: 0.1
     - _SpecularHighlights: 1
@@ -122,9 +157,11 @@ Material:
     - _WaterGradientRadiusFar: 1.263
     - _WaterSmoothness: 0.9
     - _WaterSpecular: 0.05
+    - _ZWrite: 1
     - _ZWrite1: 1
     - __dirty: 0
     m_Colors:
+    - _CausticsDirection: {r: 0, g: 0, b: 0, a: 0}
     - _Color: {r: 0.2971698, g: 0.55340993, b: 1, a: 0}
     - _Color0: {r: 0, g: 0.6749488, b: 0.8088235, a: 0}
     - _Color1: {r: 0, g: 0.048731543, b: 0.22794023, a: 0}
@@ -133,6 +170,7 @@ Material:
     - _DeepColor: {r: 0, g: 0.04310166, b: 0.24999821, a: 0}
     - _DepthColorClose: {r: 0, g: 0.2196079, b: 0.2627451, a: 0}
     - _DepthColorFar: {r: 0.1058824, g: 0.5686275, b: 0.7568628, a: 0}
+    - _FoamColor: {r: 0, g: 0, b: 0, a: 0}
     - _ShalowColor: {r: 0, g: 0.80882317, b: 0.8088235, a: 0}
     - _SpecColor: {r: 1, g: 1, b: 1, a: 1}
     - _Tint: {r: 0.46226418, g: 0.46226418, b: 0.46226418, a: 0}
