@@ -8,9 +8,10 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Water Surface Light Clear
-  m_Shader: {fileID: 4800000, guid: f08f2b062fd19c847910239e1c1bc8e7, type: 3}
+  m_Shader: {fileID: 4800000, guid: 6f809807f6a2e96479604e0c544c7408, type: 3}
   m_ShaderKeywords: _EDGEMASKSHIFT_ON _FIXUNDERWATEREDGES_ON _USEDEPTHSMOOTHING_ON
-  m_LightmapFlags: 1
+    _ZWRITE1_ON
+  m_LightmapFlags: 0
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
@@ -19,14 +20,6 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _AlbedoTex1:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _AlbedoTex2:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     - _Foam:
         m_Texture: {fileID: 2800000, guid: d01457b88b1c5174ea4235d140b5fab8, type: 3}
         m_Scale: {x: 20, y: 20}
@@ -39,13 +32,9 @@ Material:
         m_Texture: {fileID: 2800000, guid: 74d23cfae5a833449a2ebe11f74ae071, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _MirrorReflectionTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     - _Normal:
         m_Texture: {fileID: 2800000, guid: 6d095a40a0b25e746a709fedd6a9aae6, type: 3}
-        m_Scale: {x: 7, y: 7}
+        m_Scale: {x: 5, y: 5}
         m_Offset: {x: 0, y: 0}
     - _Normal2:
         m_Texture: {fileID: 2800000, guid: fd8b85b15dfe0ad4cbbc5613a12722c6, type: 3}
@@ -53,18 +42,6 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _Normal2nd:
         m_Texture: {fileID: 2800000, guid: 8d1c512a0b7c09542b55aa818b398907, type: 3}
-        m_Scale: {x: 7, y: 7}
-        m_Offset: {x: 0, y: 0}
-    - _NormalMap1:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _NormalMap2:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _ReflectionCube:
-        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _TextureSample0:
@@ -85,24 +62,16 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _1stto2ndBlend: 1
-    - _Albedo2Flow: 1
-    - _Albedo2Tiling: 1
-    - _AlbedoContrast: 1
-    - _AlbedoIntensity: 1
     - _AmbientOcclusionPower: 0
-    - _ColorContrast: 0.71
-    - _ColorContrast1: 0.98
-    - _ColorSaturation: 1.01
-    - _ColorSaturation1: 0.77
-    - _Depth: 0.38
+    - _Depth: 1
     - _Depth1: 0.5
     - _DepthColorChange: 1
-    - _DepthColorGradation: 0.43
+    - _DepthColorGradation: 0.6
     - _DepthFalloff: -13
     - _DepthGradientRadiusClose: 0.211
     - _DepthGradientRadiusFar: 1.2
     - _DepthSaturation: 0.5
-    - _DepthSmoothing: 0.564
+    - _DepthSmoothing: 0.3
     - _Distortion: 0.2
     - _EdgeMaskShiftpx: 2
     - _Edgemaskshift: 1
@@ -111,61 +80,26 @@ Material:
     - _Float1: 1
     - _Float3: 0.9
     - _Foam: 1.79
-    - _FoamAmplitude: 15
     - _FoamDepth: 0.94
     - _FoamFalloff: -60
-    - _FoamFlow: 10
-    - _FoamFrequency: 4
-    - _FoamGain: 0.6
-    - _FoamLacunarity: 5
     - _FoamPower: 4
-    - _FoamScale: 0.1
     - _FoamSmoothness: 0.2
     - _FoamSpecular: 0
     - _Foamfalloff: -4
-    - _Glossiness: 0.5
     - _GlossyReflections: 1
     - _GradientRadiusClose: 0.3
-    - _GradientRadiusFar: 2
+    - _GradientRadiusFar: 1.2
     - _MaskClipValue: 0.5
-    - _Metallic: 0
-    - _MicrowaveScale: 1
-    - _MicrowaveStrength: 0.5
-    - _MirrorContrast: 1
-    - _MirrorFPOW: 5
-    - _MirrorR0: 0.01
-    - _MirrorSaturation: 1
-    - _MirrorStrength: 1
-    - _MirrorWaveFlow: 5
-    - _MirrorWavePow: 1
-    - _MirrorWaveScale: 1
-    - _NormalMap1Strength: 1
-    - _NormalMap2Flow: 0.5
-    - _NormalMap2Strength: 1
-    - _NormalMap2Tiling: 1.2
-    - _NormalPower: 0.377
+    - _NormalPower: 0.139
     - _NormalPower2nd: 0.616
     - _NormalScale: 0.3
     - _OpacityViewDistanceClose: 1
     - _OpacityViewDistanceFar: 1
-    - _ParallaxAmount: 0.1
-    - _ParallaxFlow: 40
-    - _ParallaxNoiseAmplitude: 3
-    - _ParallaxNoiseFrequency: 1
-    - _ParallaxNoiseGain: 0.3
-    - _ParallaxNoiseLacunarity: 4
-    - _ParallaxNoiseScale: 1
-    - _ParallaxNormal2Offset: 1
-    - _ReflectionContrast: 1
-    - _ReflectionSaturation: 1
-    - _ReflectionStrength: 0.15
-    - _Refraction: 0
+    - _Refraction: 0.169
     - _RefractionDistortion: 0.019
-    - _RipplesSpeed: 0.5
-    - _RipplesSpeed2nd: 0.27
-    - _Shininess: 0.15
-    - _Smoothness: 0.592
-    - _SoftFactor: 0.5
+    - _RipplesSpeed: 1
+    - _RipplesSpeed2nd: 0.1
+    - _Smoothness: 0.8
     - _Specular: 0.1
     - _SpecularHighlights: 1
     - _SpeedX: 0
@@ -183,30 +117,25 @@ Material:
     - _VertexOffset: 0
     - _WaterDepth: 0.99
     - _WaterFalloff: -3.6
-    - _WaterGradientContrast: 0.428
+    - _WaterGradientContrast: 0.5
     - _WaterGradientRadiusClose: 0.216
     - _WaterGradientRadiusFar: 1.263
     - _WaterSmoothness: 0.9
     - _WaterSpecular: 0.05
+    - _ZWrite1: 1
     - __dirty: 0
     m_Colors:
-    - _AlbedoColor: {r: 0.15, g: 0.161, b: 0.16, a: 1}
-    - _Color: {r: 0, g: 0.36461127, b: 0.9433962, a: 0}
+    - _Color: {r: 0.2971698, g: 0.55340993, b: 1, a: 0}
     - _Color0: {r: 0, g: 0.6749488, b: 0.8088235, a: 0}
     - _Color1: {r: 0, g: 0.048731543, b: 0.22794023, a: 0}
-    - _ColorClose: {r: 0, g: 0.7882055, b: 0.9433962, a: 0}
-    - _ColorFar: {r: 0.25729796, g: 0.90492994, b: 0.9245283, a: 0}
+    - _ColorClose: {r: 0, g: 0.2196079, b: 0.2627451, a: 0}
+    - _ColorFar: {r: 0.1058824, g: 0.5686275, b: 0.7568628, a: 0}
     - _DeepColor: {r: 0, g: 0.04310166, b: 0.24999821, a: 0}
     - _DepthColorClose: {r: 0, g: 0.2196079, b: 0.2627451, a: 0}
     - _DepthColorFar: {r: 0.1058824, g: 0.5686275, b: 0.7568628, a: 0}
-    - _FoamColor: {r: 1, g: 1, b: 1, a: 1}
-    - _FoamSoft: {r: 0.25, g: 0.6, b: 1, a: 0}
-    - _MirrorColor: {r: 1, g: 1, b: 1, a: 0.5}
-    - _MirrorDepthColor: {r: 0, g: 0, b: 0, a: 0.5}
-    - _ReflectionColor: {r: 0.28, g: 0.29, b: 0.25, a: 0.5}
     - _ShalowColor: {r: 0, g: 0.80882317, b: 0.8088235, a: 0}
     - _SpecColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Tint: {r: 0, g: 0.18979652, b: 0.75686276, a: 0}
+    - _Tint: {r: 0.46226418, g: 0.46226418, b: 0.46226418, a: 0}
     - _UnderwaterColorClose: {r: 0, g: 0.553117, b: 0.66176474, a: 0}
     - _UnderwaterColorFar: {r: 0, g: 0.26133937, b: 0.36764705, a: 0}
     - _WaterColorClose: {r: 0, g: 0.2196079, b: 0.2627451, a: 0}
