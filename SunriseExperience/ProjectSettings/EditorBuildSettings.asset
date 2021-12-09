@@ -14,7 +14,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Elena.unity
     guid: 603dd6734dd924049b3cf1e748e68d7a
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Elena 1.unity
     guid: 7f1501f80f7301a4d9cd5166ac1fa4c1
   - enabled: 0
@@ -23,7 +23,4 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes2/FogTestAdam.unity
     guid: 109fa078137e5e54a8413ddb693e5c5a
-  - enabled: 1
-    path: Assets/Scenes/Adam/Adam2.unity
-    guid: c6e882ccb789faa42867df790aa19a0e
   m_configObjects: {}
