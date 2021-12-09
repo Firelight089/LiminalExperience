@@ -10,8 +10,7 @@ Material:
   m_Name: Water Surface Uber Clear
   m_Shader: {fileID: 4800000, guid: f08f2b062fd19c847910239e1c1bc8e7, type: 3}
   m_ShaderKeywords: _EDGEMASKSHIFT_ON _FIXUNDERWATEREDGES_ON _USEDEPTHSMOOTHING_ON
-    _ZWRITE1_ON
-  m_LightmapFlags: 0
+  m_LightmapFlags: 1
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
@@ -89,16 +88,13 @@ Material:
     - _GlossyReflections: 1
     - _GradientRadiusClose: 0.3
     - _GradientRadiusFar: 1.2
-    - _IntersectionSmoothing: 0.02
     - _MaskClipValue: 0.5
-    - _NormalPower: 0.202
-    - _NormalPower2nd: 0.787
+    - _NormalPower: 0.139
+    - _NormalPower2nd: 0.616
     - _NormalScale: 0.3
     - _OpacityViewDistanceClose: 1
     - _OpacityViewDistanceFar: 1
-    - _Refraction: 0.3
-    - _Refraction2nd: 0.4
-    - _RefractionDistanceFade1: 0.6
+    - _Refraction: 0.169
     - _RefractionDistortion: 0.019
     - _RipplesSpeed: 1.15
     - _RipplesSpeed2nd: 0.27
@@ -125,10 +121,9 @@ Material:
     - _WaterGradientRadiusFar: 1.263
     - _WaterSmoothness: 0.9
     - _WaterSpecular: 0.05
-    - _ZWrite1: 1
     - __dirty: 0
     m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 0}
+    - _Color: {r: 0.5613208, g: 1, b: 0.9705776, a: 0}
     - _Color0: {r: 0, g: 0.6749488, b: 0.8088235, a: 0}
     - _Color1: {r: 0, g: 0.048731543, b: 0.22794023, a: 0}
     - _ColorClose: {r: 0, g: 0.2196079, b: 0.2627451, a: 0}

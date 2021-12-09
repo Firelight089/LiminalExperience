@@ -9,8 +9,8 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: Water Surface
   m_Shader: {fileID: 4800000, guid: 729bce0d753d0e14e91b528ee3f133c6, type: 3}
-  m_ShaderKeywords: _EDGEMASKSHIFT_ON _FIXUNDERWATEREDGES_ON _ZWRITE_ON
-  m_LightmapFlags: 0
+  m_ShaderKeywords: _EDGEMASKSHIFT_ON _FIXUNDERWATEREDGES_ON
+  m_LightmapFlags: 1
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
@@ -62,9 +62,7 @@ Material:
     m_Floats:
     - _1stto2ndBlend: 1
     - _AmbientOcclusionPower: 0
-    - _ColorContrast: 1.6
     - _ColorContrast1: 1.6
-    - _ColorSaturation: 1.074
     - _ColorSaturation1: 1.074
     - _Depth: 0.84
     - _Depth1: 0.5
@@ -91,8 +89,7 @@ Material:
     - _Foamfalloff: -4
     - _GlossyReflections: 1
     - _GradientRadiusClose: 0.3
-    - _GradientRadiusFar: 2
-    - _IntersectionSmoothing: 0.02
+    - _GradientRadiusFar: 1.2
     - _MaskClipValue: 0.5
     - _NormalPower: 0.139
     - _NormalPower2nd: 0.616
@@ -124,15 +121,13 @@ Material:
     - _WaterGradientRadiusFar: 1.263
     - _WaterSmoothness: 0.9
     - _WaterSpecular: 0.05
-    - _ZWrite: 1
-    - _ZWrite1: 1
     - __dirty: 0
     m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 0}
+    - _Color: {r: 0.7122642, g: 0.91290385, b: 1, a: 0}
     - _Color0: {r: 0, g: 0.6749488, b: 0.8088235, a: 0}
     - _Color1: {r: 0, g: 0.048731543, b: 0.22794023, a: 0}
-    - _ColorClose: {r: 0, g: 0.26274452, b: 0.2623929, a: 0}
-    - _ColorFar: {r: 0.10588192, g: 0.5686274, b: 0.7568628, a: 0}
+    - _ColorClose: {r: 0, g: 0.2627447, b: 0.2623931, a: 0}
+    - _ColorFar: {r: 0.1058821, g: 0.5686274, b: 0.7568628, a: 0}
     - _DeepColor: {r: 0, g: 0.04310166, b: 0.24999821, a: 0}
     - _DepthColorClose: {r: 0, g: 0.2196079, b: 0.2627451, a: 0}
     - _DepthColorFar: {r: 0.1058824, g: 0.5686275, b: 0.7568628, a: 0}
