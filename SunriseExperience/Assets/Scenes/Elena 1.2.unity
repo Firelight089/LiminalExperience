@@ -574,13 +574,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 795543846}
-  m_LocalRotation: {x: -0, y: -1, z: -0, w: 0}
-  m_LocalPosition: {x: 110.9, y: -1, z: 149.7}
+  m_LocalRotation: {x: -0, y: -0.96632856, z: -0, w: -0.25731167}
+  m_LocalPosition: {x: 47.929, y: -1, z: 186.18834}
   m_LocalScale: {x: 0.5, y: 1, z: 0.5}
   m_Children: []
   m_Father: {fileID: 242705352}
   m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 150.179, z: 0}
 --- !u!1001 &959493854
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -850,11 +850,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 242705352}
     m_Modifications:
-    - target: {fileID: 1260162970045296579, guid: 22276a8657744e04cba8ad0a2caf4195,
-        type: 3}
-      propertyPath: m_Name
-      value: VRAvatar
-      objectReference: {fileID: 0}
     - target: {fileID: 1260162969423114810, guid: 22276a8657744e04cba8ad0a2caf4195,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -909,6 +904,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1260162970045296579, guid: 22276a8657744e04cba8ad0a2caf4195,
+        type: 3}
+      propertyPath: m_Name
+      value: VRAvatar
       objectReference: {fileID: 0}
     - target: {fileID: 1260162968470769512, guid: 22276a8657744e04cba8ad0a2caf4195,
         type: 3}
