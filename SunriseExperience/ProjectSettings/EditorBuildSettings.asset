@@ -5,22 +5,7 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Scenes/Adam/LightingTest.unity
-    guid: bcefb328b3f9774428abe108232079b7
-  - enabled: 0
-    path: Assets/Scenes/Chucho2.unity
-    guid: 8a5e65b5f2121694889aafd445b21157
-  - enabled: 0
-    path: Assets/Scenes/Elena.unity
-    guid: 603dd6734dd924049b3cf1e748e68d7a
-  - enabled: 0
-    path: Assets/Scenes/Elena 1.unity
-    guid: 7f1501f80f7301a4d9cd5166ac1fa4c1
-  - enabled: 0
-    path: Assets/Scenes/Elena 2.unity
-    guid: 4123e8c1ee818d24986c4ee849c49c05
   - enabled: 1
-    path: Assets/Scenes2/FogTestAdam.unity
-    guid: 109fa078137e5e54a8413ddb693e5c5a
+    path: Assets/Scenes2/FogTestElena.unity
+    guid: 866421cf0a3b05d4f955c86c372d93a5
   m_configObjects: {}
