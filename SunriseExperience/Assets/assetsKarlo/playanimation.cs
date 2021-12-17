@@ -6,17 +6,7 @@ public class playanimation : MonoBehaviour
 {
     // Start is called before the first frame update
 
-    private Animation anim;
+    public Animator animator;
 
-    void Start()
-    {
-        anim = gameObject.GetComponent<Animation>();
 
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
