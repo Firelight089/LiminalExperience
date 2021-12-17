@@ -4082,7 +4082,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 199128, guid: 2fc6d76838c062b43a48d1922d523ef3, type: 3}
       propertyPath: m_Name
-      value: boat1
+      value: boat2
       objectReference: {fileID: 0}
     - target: {fileID: 432900, guid: 2fc6d76838c062b43a48d1922d523ef3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4152,7 +4152,8 @@ PrefabInstance:
       propertyPath: m_Animation
       value: 
       objectReference: {fileID: 7400000, guid: 0d4a25dabd63c93428b6fe174e6d816b, type: 2}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 11171516, guid: 2fc6d76838c062b43a48d1922d523ef3, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 2fc6d76838c062b43a48d1922d523ef3, type: 3}
 --- !u!4 &577217336 stripped
 Transform:
@@ -4166,18 +4167,25 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 577217335}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &577217338
-MonoBehaviour:
+--- !u!95 &577217338
+Animator:
+  serializedVersion: 3
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 577217337}
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ac71ae1329f921740b59722faf9b041b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 32e3f94eb0aae4f42acfa6a538e66690, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &599003265
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9694,17 +9702,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 242705352}
     m_Modifications:
-    - target: {fileID: 1260162970045296579, guid: 22276a8657744e04cba8ad0a2caf4195,
-        type: 3}
-      propertyPath: m_Name
-      value: VRAvatar
-      objectReference: {fileID: 0}
-    - target: {fileID: 1260162970045296579, guid: 22276a8657744e04cba8ad0a2caf4195,
-        type: 3}
-      propertyPath: m_Icon
-      value: 
-      objectReference: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000,
-        type: 0}
     - target: {fileID: 1260162969423114810, guid: 22276a8657744e04cba8ad0a2caf4195,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9760,6 +9757,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1260162970045296579, guid: 22276a8657744e04cba8ad0a2caf4195,
+        type: 3}
+      propertyPath: m_Name
+      value: VRAvatar
+      objectReference: {fileID: 0}
+    - target: {fileID: 1260162970045296579, guid: 22276a8657744e04cba8ad0a2caf4195,
+        type: 3}
+      propertyPath: m_Icon
+      value: 
+      objectReference: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000,
+        type: 0}
     - target: {fileID: 389286676940360084, guid: 22276a8657744e04cba8ad0a2caf4195,
         type: 3}
       propertyPath: m_Enabled
@@ -9778,6 +9786,31 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1116866313}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1131910723 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 160704, guid: ae6585df7c9838a41adc0f73cbb75fa2,
+    type: 3}
+  m_PrefabInstance: {fileID: 1483109031}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1131910724
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1131910723}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 74f07063967751f4e9e4a4b26f9fde94, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &1136063349
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12687,11 +12720,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 160704, guid: ae6585df7c9838a41adc0f73cbb75fa2, type: 3}
       propertyPath: m_Name
-      value: boat3
+      value: boat1
       objectReference: {fileID: 0}
     - target: {fileID: 487088, guid: ae6585df7c9838a41adc0f73cbb75fa2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 111.6
+      value: 202.5
       objectReference: {fileID: 0}
     - target: {fileID: 487088, guid: ae6585df7c9838a41adc0f73cbb75fa2, type: 3}
       propertyPath: m_LocalPosition.y
@@ -12699,7 +12732,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 487088, guid: ae6585df7c9838a41adc0f73cbb75fa2, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 362.1
+      value: 251
       objectReference: {fileID: 0}
     - target: {fileID: 487088, guid: ae6585df7c9838a41adc0f73cbb75fa2, type: 3}
       propertyPath: m_LocalRotation.x
@@ -12747,7 +12780,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 11172936, guid: ae6585df7c9838a41adc0f73cbb75fa2, type: 3}
       propertyPath: m_Animations.Array.size
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 11172936, guid: ae6585df7c9838a41adc0f73cbb75fa2, type: 3}
       propertyPath: m_Animations.Array.data[0]
@@ -12756,8 +12789,9 @@ PrefabInstance:
     - target: {fileID: 11172936, guid: ae6585df7c9838a41adc0f73cbb75fa2, type: 3}
       propertyPath: m_Animation
       value: 
-      objectReference: {fileID: 7400000, guid: 398f487bcf3988b40bea4f8dfb3e71d5, type: 2}
-    m_RemovedComponents: []
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 11172936, guid: ae6585df7c9838a41adc0f73cbb75fa2, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ae6585df7c9838a41adc0f73cbb75fa2, type: 3}
 --- !u!4 &1483109032 stripped
 Transform:
