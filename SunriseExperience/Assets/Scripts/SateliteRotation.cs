@@ -4,15 +4,8 @@ using UnityEngine;
 
 public class SateliteRotation : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
     void Update()
     {
-        transform.RotateAround(Vector3.zero, Vector3.right, 2f * Time.deltaTime);
+        transform.RotateAround(Vector3.zero, Vector3.right, 0.5f * Time.deltaTime);
     }
 }
