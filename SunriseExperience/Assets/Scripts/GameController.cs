@@ -1,7 +1,7 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
+using Liminal.SDK.Core;
+using Liminal.SDK.VR.Avatars;
 using UnityEngine;
-
 
 public class GameController : MonoBehaviour
 {

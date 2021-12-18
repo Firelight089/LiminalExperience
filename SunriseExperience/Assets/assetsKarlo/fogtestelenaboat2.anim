@@ -20,7 +20,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: {x: -238.7, y: -0.8000002, z: 382.9}
+        value: {x: -345, y: -0.8000002, z: 661}
         inSlope: {x: 4.3103848, y: 0, z: 1.5743443}
         outSlope: {x: 4.3103848, y: 0, z: 1.5743443}
         tangentMode: 0
@@ -28,7 +28,7 @@ AnimationClip:
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
         outWeight: {x: 1, y: 0.33333334, z: 1}
       - serializedVersion: 3
-        time: 185.18333
+        time: 215.21666
         value: {x: 539, y: -0.8000002, z: 679}
         inSlope: {x: 4.230375, y: 0, z: 1.5796996}
         outSlope: {x: 4.230375, y: 0, z: 1.5796996}
@@ -63,7 +63,7 @@ AnimationClip:
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 185.18333
+    m_StopTime: 215.21666
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -84,7 +84,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: -238.7
+        value: -345
         inSlope: 4.3103848
         outSlope: 4.3103848
         tangentMode: 0
@@ -92,7 +92,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 1
       - serializedVersion: 3
-        time: 185.18333
+        time: 215.21666
         value: 539
         inSlope: 4.230375
         outSlope: 4.230375
@@ -120,7 +120,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 185.18333
+        time: 215.21666
         value: -0.8000002
         inSlope: 0
         outSlope: 0
@@ -140,7 +140,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 382.9
+        value: 661
         inSlope: 1.5743443
         outSlope: 1.5743443
         tangentMode: 0
@@ -148,7 +148,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 1
       - serializedVersion: 3
-        time: 185.18333
+        time: 215.21666
         value: 679
         inSlope: 1.5796996
         outSlope: 1.5796996
